@@ -1,1 +1,5 @@
-ECHO is on.
+services.service('baseService', function(){
+    this.do = function(){
+        console.log('service invoked');
+    }
+});

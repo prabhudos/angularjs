@@ -1,1 +1,3 @@
-ECHO is on.
+contollers.controller('baseContoller', function($scope){
+    $scope.message = 'Test';
+});
